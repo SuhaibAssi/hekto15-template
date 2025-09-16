@@ -206,3 +206,25 @@ footer{
     background-color: #0d0e43;
 }
 /* end newsletter */
+/*start clients section*/
+.clients{
+    padding: 50px 0;
+}
+.clients .row{
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+}
+.clients .logo{
+    width: calc((100% - 75px) / 6);
+}
+.clients img{
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width: 900px){
+    .clients .logo{
+        width: calc((100% - 30px) / 3);
+    }
+}
+/*end clients section*/
