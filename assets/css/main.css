@@ -187,3 +187,22 @@ footer{
     background-color: #FFEAC1;
 }
 /*end featured section*/
+/* start newsletter */
+.newsletter{
+    background-image: url(../images/newsletter-section-imgs/Rectangle\ 102.webp);
+    padding: 175px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newsletter h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px
+}
+.shop-btn{
+    transition: background-color 0.8s ease;
+}
+.shop-btn:hover{
+    background-color: #0d0e43;
+}
+/* end newsletter */
