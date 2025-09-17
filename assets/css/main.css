@@ -49,6 +49,44 @@ body{
 }
 /* end header */
 
+/* start hero section*/
+.hero{
+    background-color: #F2F0FF;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.hero-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 0 60%;
+}
+.hero-content .hero-lamp{
+    position: relative;
+    bottom: 90px;
+    width: 25%;
+    left: -180px;
+}
+.hero-img{
+    flex: 1 0 30%;
+}
+.hero-img img{
+    width: 100%;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text-content p:last-of-type{
+    color: #777;
+    width: 80%;
+}
+.text-content a{
+    align-self: flex-start;
+}
+/* end hero section*/
+
 /* start footer */
 footer{
     background-color: #EEEFF8;
